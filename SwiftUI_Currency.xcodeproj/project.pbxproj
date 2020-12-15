@@ -13,6 +13,10 @@
 		A685C89D256FF53F006B68DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A685C89C256FF53F006B68DC /* Preview Assets.xcassets */; };
 		A685C8A8256FF53F006B68DC /* SwiftUI_CurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C8A7256FF53F006B68DC /* SwiftUI_CurrencyTests.swift */; };
 		A685C8B3256FF53F006B68DC /* SwiftUI_CurrencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C8B2256FF53F006B68DC /* SwiftUI_CurrencyUITests.swift */; };
+		A685C8C7256FF587006B68DC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C8C6256FF587006B68DC /* Home.swift */; };
+		A685C8CF256FF6C8006B68DC /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C8CE256FF6C8006B68DC /* Conversion.swift */; };
+		A685C8D4256FF763006B68DC /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C8D3256FF763006B68DC /* Currency.swift */; };
+		A685C8D9256FF829006B68DC /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C8D8256FF829006B68DC /* FetchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		A685C8AE256FF53F006B68DC /* SwiftUI_CurrencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_CurrencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A685C8B2256FF53F006B68DC /* SwiftUI_CurrencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CurrencyUITests.swift; sourceTree = "<group>"; };
 		A685C8B4256FF53F006B68DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A685C8C6256FF587006B68DC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A685C8CE256FF6C8006B68DC /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
+		A685C8D3256FF763006B68DC /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		A685C8D8256FF829006B68DC /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,9 @@
 		A685C894256FF53D006B68DC /* SwiftUI_Currency */ = {
 			isa = PBXGroup;
 			children = (
+				A685C8C5256FF576006B68DC /* View */,
+				A685C8C4256FF566006B68DC /* ViewModel */,
+				A685C8C3256FF55F006B68DC /* Model */,
 				A685C895256FF53D006B68DC /* SwiftUI_CurrencyApp.swift */,
 				A685C897256FF53D006B68DC /* ContentView.swift */,
 				A685C899256FF53F006B68DC /* Assets.xcassets */,
@@ -128,6 +139,31 @@
 				A685C8B4256FF53F006B68DC /* Info.plist */,
 			);
 			path = SwiftUI_CurrencyUITests;
+			sourceTree = "<group>";
+		};
+		A685C8C3256FF55F006B68DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A685C8CE256FF6C8006B68DC /* Conversion.swift */,
+				A685C8D3256FF763006B68DC /* Currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A685C8C4256FF566006B68DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A685C8D8256FF829006B68DC /* FetchData.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A685C8C5256FF576006B68DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A685C8C6256FF587006B68DC /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A685C898256FF53D006B68DC /* ContentView.swift in Sources */,
+				A685C8D4256FF763006B68DC /* Currency.swift in Sources */,
+				A685C8CF256FF6C8006B68DC /* Conversion.swift in Sources */,
+				A685C8C7256FF587006B68DC /* Home.swift in Sources */,
+				A685C8D9256FF829006B68DC /* FetchData.swift in Sources */,
 				A685C896256FF53D006B68DC /* SwiftUI_CurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
